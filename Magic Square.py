@@ -118,5 +118,5 @@ def Test(jieshu):
         print('%s阶程序有bug'%jieshu)
         return False
 
-print(Test(13))
+print(Test(15))
 
