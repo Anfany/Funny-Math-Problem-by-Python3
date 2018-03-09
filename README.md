@@ -2,7 +2,7 @@
 基于Python3的趣味数学问题解决方案
 
 
-**Pro1. 数独 (Sudoku)**
+**Pro1. [数独 (Sudoku)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Sudoku.py)**
 >>>根据九宫格盘面上的已知数字，推理出所有剩余空格的数字，并满足每一行、每一列、每一个宫(3*3)内的数字均含1—9这9个数字。
         
 **Pro2. 幻方 (Magic Square)**
