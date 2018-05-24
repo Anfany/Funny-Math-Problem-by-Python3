@@ -1,3 +1,6 @@
+#-*- coding：utf-8 -*-
+# &Author  AnFany
+
 #  引入库
 import pandas as pd
 import numpy as np
@@ -56,30 +59,30 @@ def ForK(data):
     return Kdict
 
 
-#  选择可能性最小的位置
+#  在字典中，寻找最小jieti值的空格，返回其位置与可以选取的数字集合
 def SeleM(ddict):
-    Small=min(ddict.items(),key=lambda x:(x[1][0]))[0]
-    #位置
-    weizhi=Small.split('-')
-    #hang
-    Ha=int(weizhi[0])
-    #lie
-    Li=int(weizhi[1])
-    #集合
+    Small = min(ddict.items(), key = lambda x:(x[1][0]))[0]
+    # 空格位置
+    weizhi = Small.split('-')
+    # 行
+    Ha = int(weizhi[0])
+    # 列
+    Li = int(weizhi[1])
+    # 数字集合
     SE=ddict[Small][2]
     return Ha,Li,SE
 
 
 #初始状态
 InitialState={}
-
 InitialState[0]=NumData
 
 #取值字典
-NumDict={}
+NumDict = {}
 
+# 定义全局变量
 global NU
-NU=1
+NU = 1
 
 #状态转移
 #记录栈中调用函数的次数
@@ -142,15 +145,3 @@ import time
 start=time.clock()
 Sudoku()
 print('用时%s秒'%(time.clock() - start))
-
-
-
-
-
-
-    
-    
-
-    
-    
-    
