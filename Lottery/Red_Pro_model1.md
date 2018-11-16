@@ -15,7 +15,7 @@
 
     + 爬虫程序：[DLT_SPYDER.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/DLT_SPYDER.py)
 
-    + 数据处理：[DLT_DATA.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/DLT_DATA.pyy)
+    + 数据处理：[DLT_DATA.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/DLT_DATA.py)
 
 #### 二、真实数据程序
 
