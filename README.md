@@ -17,6 +17,6 @@
 **Pro5. [N皇后问题 (N Queens Problem)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/N%20Queens.py)**
 >>>八皇后问题，是一个古老而著名的问题，是利用回溯算法求解的典型案例。该问题是国际西洋棋棋手马克斯·贝瑟尔于1848年提出：在8×8格的国际象棋上摆放八个皇后，使其不能互相攻击，即任意两个皇后都不能处同一行、同一列或同一斜线上，问有多少种摆法。之后陆续有许多数学家对其进行研究，其中包括高斯和康托，并且将其推广为N皇后问题。
 
-**Pro6. [彩票号码预测问题 (Lottery Number Problem)]**
->>>彩票号码预测问题。预测双色球、大乐透下一期的中奖号码。
+**Pro6. [彩票号码优选方案 (Lottery Number Problem)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Lottery)**
+>>>彩票号码优选方案。双色球、大乐透号码的优选方案。
 
