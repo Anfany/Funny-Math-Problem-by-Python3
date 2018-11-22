@@ -1,4 +1,4 @@
-# 双色球红球、大乐透前区号码优选方案
+# 双色球、大乐透号码优选方案
 
 ### 程序文件说明
 
@@ -16,23 +16,20 @@
     + 爬虫程序：[DLT_SPYDER.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/DLT_SPYDER.py)
 
     + 数据处理：[DLT_DATA.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/DLT_DATA.py)
+    
+#### 二、模型程序
 
-#### 二、真实数据程序
+   + 模型：[MODEL.py]((https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/MODEL.py))
 
-   + 双色球红球：[SSQ_RED.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/SSQ_RED.py)
+#### 三、真实数据概率对比程序
 
-   + 大乐透前区：[DLT_PRO.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/DLT_PRO.py)
+   + 数据测试：[TEST.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/TEST.py)
 
+#### 四、下一期预测程序
 
-#### 三、模拟数据程序
+   + 预测：[SSQ_DLT_PREDICT.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/SSQ_DLT_PREDICT.py)
 
-   + 模拟双色球红球：[SSQ_RED_SIM.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/SSQ_RED_SIM.py)
-
-   + 模拟大乐透前区：[DLT_PRO_SIM.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/DLT_PRO_SIM.py)
    
-#### 四、附加程序
-
-   + 合成GIF：[gif.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/gif.py)
    
    
 
