@@ -1,6 +1,8 @@
 # -*- coding：utf-8 -*-
 # &Author  AnFany
 
+# 首先更新数据
+import DLT_SPYDER as dltdata
 
 # 对存储在文件中的SSQ数据进行处理
 import pandas as pd
@@ -50,14 +52,11 @@ class CP:
         data['序号'] = list(range(1, len(data) + 1))
         return data
 
+# 首先爬取最新数据
+print('爬取DLT最新数据')
+dltdata.dc_order()
 # 主函数
+dlt_data = CP()
 
-ss = CP()
 
-# 数据
-zddd = ss.oodata
 
-# 前区序列
-rr = ss.qian
-# 前区个数
-rc = ss.qc
