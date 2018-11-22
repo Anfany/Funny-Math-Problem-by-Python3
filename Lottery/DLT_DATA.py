@@ -4,7 +4,7 @@
 # 首先更新数据
 import DLT_SPYDER as dltdata
 
-# 对存储在文件中的SSQ数据进行处理
+# 对存储在文件中的DLT数据进行处理
 import pandas as pd
 
 # 定义处理数据的类
