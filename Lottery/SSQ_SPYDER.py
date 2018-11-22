@@ -45,7 +45,6 @@ def dc_order(start='03001', end='99001', head=headers, xqdict=xingqi):  #end值�
 
         # 数据中存在日期出现错误的情况，在这里需要更正。
         if anyday not in ['0', '2', '4']:
-            print('修改错误的日期')
             # 需要将日期往前算一天
             newday = fu + datetime.timedelta(days=-1)
             # 更改日期
@@ -73,8 +72,10 @@ def dc_order(start='03001', end='99001', head=headers, xqdict=xingqi):  #end值�
 
     data.to_csv(r'C:\Users\GWT9\Desktop\ssq.csv', index=False, encoding=u'utf-8')
 
-    return print('SSQ数据保存完毕')
-
+    return print('爬取的SSQ数据保存完毕,最新期号%s' % qihao[0])
 
 # 主函数
-shuangse = dc_order()
+if __name__ == '__main__':
+    dc_order()
+
+
