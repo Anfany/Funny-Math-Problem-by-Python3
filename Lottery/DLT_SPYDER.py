@@ -71,9 +71,10 @@ def dc_order(start='08069', end='99999', head=headers, xqdict=xingqi): # end设�
 
     data.to_csv(r'C:\Users\GWT9\Desktop\dlt.csv', index=False, encoding= u'utf-8')
 
-    return print('wanbi')
+    return print('爬取的DLT数据保存完毕,最新期号%s' % qihao[0])
 
 
 # 主函数
 if __name__ == '__main__':
     dc_order()
+
