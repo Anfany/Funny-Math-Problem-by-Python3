@@ -49,7 +49,7 @@ def Predict_DLT(outcount=[5, 2], xuhao=999999):
     gail_qian = model_qian.MingZhong(fu_qian, maxcount_qian)
     print(gail_qian)
     # 后区
-    model_hou = MM.MODEL(data_dlt.dlt_data.oodata, data_dlt.dlt_data.hou, data_dlt.dlt_data.hc, '后区', 1, xuhao)
+    model_hou = MM.MODEL(data_dlt.dlt_data.oodata, data_dlt.dlt_data.hou, data_dlt.dlt_data.hc, '后区', 2, xuhao)
     fu_hou = model_hou.HuoDe()
     # 确定输出候选号码的个数
     maxcount_hou = outcount[1]
