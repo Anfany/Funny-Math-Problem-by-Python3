@@ -27,7 +27,7 @@
 
 #### 四、下一期预测程序
 
-   + 预测：[SSQ_DLT_PREDICT.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/SSQ_DLT_PREDICT.py)
+   + 预测：[SSQ_DLT_PREDICT.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/SSQ_DLT_PREDICT.py)
 
    
    
