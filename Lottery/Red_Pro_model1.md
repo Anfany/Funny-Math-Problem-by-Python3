@@ -19,7 +19,7 @@
     
 #### 二、模型程序
 
-   + 模型：[MODEL.py]((https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/MODEL.py))
+   + 模型：[MODEL.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Lottery/MODEL.py)
 
 #### 三、真实数据概率对比程序
 
