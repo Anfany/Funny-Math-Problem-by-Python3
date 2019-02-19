@@ -20,3 +20,6 @@
 **Pro6. [彩票号码优选方案 (Lottery Number Problem)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Lottery)**
 >>>彩票号码优选方案。双色球、大乐透号码的优选方案。
 
+
+###### 扫描二维码，关注订阅号，获取更多编程、机器学习等文章。
+![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
