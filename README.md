@@ -20,6 +20,10 @@
 **Pro6. [彩票号码优选方案 (Lottery Number Problem)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Lottery)**
 >>>彩票号码优选方案。双色球、大乐透号码的优选方案。
 
+**Pro7. [完美迷宫 (Perfect Maze)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Perfect%20Maze))**
+>>>所谓完美迷宫，就是没有回路，没有不可达区域的迷宫，并且迷宫中任意两个网格间都有唯一的路径。利用Prim算法，分别采取遍历墙和遍历网格的方法，动态展示迷宫的生成。并且利用A\*算法获得从入口到出口的最佳路径，并在迷宫中展示出来。
+
+
 
 ###### 扫描二维码，关注订阅号，获取更多编程、机器学习等文章。
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
