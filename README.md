@@ -23,6 +23,9 @@
 **Pro7. [完美迷宫 (Perfect Maze)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Perfect%20Maze)**
 >>>所谓完美迷宫，就是没有回路，没有不可达区域的迷宫，并且迷宫中任意两个网格间都有唯一的路径。利用Prim算法，分别采取遍历墙和遍历网格的方法，动态展示迷宫的生成。并且利用A\*算法获得从入口到出口的最佳路径，并在迷宫中展示出来。
 
+**Pro8. [凸包 (Convex Hull)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Convex%20Hull)**
+>>>下面用比较通俗的方式，介绍下凸包：在一个二维坐标平面中，散列着一些点，将最外层的点连接起来构成的凸多边型，它能包含散列的所有的点，这个多边形就是这些点构成的点集的凸包。利用Graham Scan算法获得凸包(平面凸包)，并动态展示凸包的形成过程。
+
 
 
 ###### 扫描二维码，关注订阅号，获取更多编程、机器学习等文章。
