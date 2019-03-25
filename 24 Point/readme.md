@@ -1,7 +1,7 @@
 # 24 Point
 
 
-* **程序文件**：
+* **程序文件**：[24_point.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/24%20Point/24_point.py)
 
 
 * **结果示图**：
