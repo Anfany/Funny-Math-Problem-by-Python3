@@ -25,6 +25,6 @@
 
   * 示图：
   
-     ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Perfect%20Maze/c.jpg)
+     ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Perfect%20Maze/c.png)
     
     ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Perfect%20Maze/cell.jpg)
