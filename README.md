@@ -11,7 +11,7 @@
 **Pro3. [24点 (24 Point)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/24%20Point.py)**
 >>>把4个整数通过加、减、乘、除以及括号运算，使最后的计算结果是24的一个数学游戏。
  
-**Pro4. [汉诺塔 (Tower of Hanoi)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Hanoi)**
+**Pro4. [汉诺塔 (Tower of Hanoi)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Tower%20of%20Hanoi)**
 >>>法国数学家爱德华·卢卡斯曾编写过一个关于印度的古老传说：在世界中心贝拿勒斯的圣庙里，一块黄铜板上插着三根宝石针，印度教的主神梵天在创造世界的时候，在其中一根针上从下到上地穿好了由大到小的64片金片，这就是所谓的汉诺塔。不论白天黑夜，总有一个僧侣在按照下面的法则移动这些金片：一次只移动一片，不管在哪根针上，小片必须在大片上面。这就是汉诺塔问题。
         
 **Pro5. [N皇后 (N Queens)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/N%20Queens)**
