@@ -2,13 +2,13 @@
 基于Python3的趣味数学问题解决方案
 
 
-**Pro1. [数独 (Sudoku)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Sudoku.py)**
+**Pro1. [数独 (Sudoku)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Sudoku)**
 >>>根据九宫格盘面上的已知数字，推理出所有剩余空格的数字，并满足每一行、每一列、每一个宫(3*3)内的数字均含1—9这9个数字。
         
-**Pro2. [幻方 (Magic Square)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Magic%20Square.py)**
+**Pro2. [幻方 (Magic Square)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Magic%20Square)**
 >>>幻方又称为魔方，方阵或厅平方。通常幻方由从1到n<sup>2</sup> 的连续整数组成，其中n为正方形的行或列的数目。将数填在纵横格数都相等的正方形图内，使得每一行、每一列和每一条对角线上的各个数之和都相等。
         
-**Pro3. [24点 (24 Point)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/24%20Point.py)**
+**Pro3. [24点 (24 Point)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/24%20Point)**
 >>>把4个整数通过加、减、乘、除以及括号运算，使最后的计算结果是24的一个数学游戏。
  
 **Pro4. [汉诺塔 (Tower of Hanoi)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Tower%20of%20Hanoi)**
