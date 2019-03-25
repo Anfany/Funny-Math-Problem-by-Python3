@@ -14,10 +14,10 @@
 **Pro4. [汉诺塔 (Tower of Hanoi)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Hanoi.py)**
 >>>法国数学家爱德华·卢卡斯曾编写过一个关于印度的古老传说：在世界中心贝拿勒斯的圣庙里，一块黄铜板上插着三根宝石针，印度教的主神梵天在创造世界的时候，在其中一根针上从下到上地穿好了由大到小的64片金片，这就是所谓的汉诺塔。不论白天黑夜，总有一个僧侣在按照下面的法则移动这些金片：一次只移动一片，不管在哪根针上，小片必须在大片上面。这就是汉诺塔问题。
         
-**Pro5. [N皇后问题 (N Queens Problem)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/N%20Queens.py)**
+**Pro5. [N皇后 (N Queens)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/N%20Queens.py)**
 >>>八皇后问题，是一个古老而著名的问题，是利用回溯算法求解的典型案例。该问题是国际西洋棋棋手马克斯·贝瑟尔于1848年提出：在8×8格的国际象棋上摆放八个皇后，使其不能互相攻击，即任意两个皇后都不能处同一行、同一列或同一斜线上，问有多少种摆法。之后陆续有许多数学家对其进行研究，其中包括高斯和康托，并且将其推广为N皇后问题。
 
-**Pro6. [彩票号码优选方案 (Lottery Number Problem)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Lottery)**
+**Pro6. [彩票号码优选方案 (Lottery Number)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Lottery)**
 >>>彩票号码优选方案。双色球、大乐透号码的优选方案。
 
 **Pro7. [完美迷宫 (Perfect Maze)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Perfect%20Maze)**
