@@ -9,14 +9,17 @@
   
   + **图示**
   
+  ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/108.png)
   
-  
+  ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/57.png)
   
 * **利用DFS获取一条路径**
 
   + **程序：[Find_One_Path_Dfs.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/Find_One_Path_Dfs.py)**
+  
   + **图示**
   
+  ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/dfs.png)
   
 #### 2. 根据一笔画完问题截图，自动获取信息，利用dfs算法获得一条路径
  
@@ -25,5 +28,10 @@
   
    + **图示**
   
+  ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/shibie.png)
+  
+  ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/lujing.png)
   
    + **谜题图片示意图**
+   
+   ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/timian.png)
