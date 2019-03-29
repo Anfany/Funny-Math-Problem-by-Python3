@@ -5,7 +5,7 @@
 
 * **利用DFS和BFS算法获取所有路径**
 
-  + **程序：[Find_Path.py]()**
+  + **程序：[Find_Path.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/Find_Path.py)**
   
   + **图示**
   
@@ -14,13 +14,13 @@
   
 * **利用DFS获取一条路径**
 
-  + **程序：[Find_One_Path_Dfs.py]()**
+  + **程序：[Find_One_Path_Dfs.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/Find_One_Path_Dfs.py)**
   + **图示**
   
   
 #### 2. 根据一笔画完问题截图，自动获取信息，利用dfs算法获得一条路径
  
-   + **程序：[Find_Path_Plus.py]()**
+   + **程序：[Find_Path_Plus.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/Find_Path_Plus.py)**
   
   
    + **图示**
