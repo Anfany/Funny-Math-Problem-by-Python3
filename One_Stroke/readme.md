@@ -3,7 +3,7 @@
 #### 1. 一笔画完题目信息手动输入
 
 
-* **利用DFS和BFS算法获取所有路径**
+* **利用DFS和BFS算法获取所有的路径**
 
   + **程序：[Find_Path.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/Find_Path.py)**
   
