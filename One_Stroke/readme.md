@@ -33,3 +33,4 @@
    + **谜题图片示意图**
    
    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/One_Stroke/timian.jpg)
+
