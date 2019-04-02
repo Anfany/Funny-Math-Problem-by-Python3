@@ -3,38 +3,38 @@
 
 * **构建谜题**
 
-   + **1，在网站绘出谜题**
+   + **在网站绘出谜题**
    
    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/fig.png)
    
-   + **2，导出作图过程的html文件**
+   + **导出作图过程的html文件**
    
    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/fig_progress.png)
       
-   + **3，读取html文件的程序**
+   + **读取html文件的程序**
    
-   **[read_fig_html.py]**(https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/read_fig_html.py)
+   **[read_fig_html.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/read_fig_html.py)**
 
 * **程序**
 
    * **根据读取的信息，转变为谜题，并解决谜题的程序**
    
-   **[Seven_Bridge.py]**(https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/Seven_Bridge.py)
+   **[Seven_Bridge.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/Seven_Bridge.py)**
 
 
 * **结果图示**
 
-  + **欧拉通路，欧拉开迹，起始点和终点是连线数为奇数的2个点**
+  + **1. 欧拉通路，欧拉开迹，起始点和终点是连线数为奇数的2个点**
   
-     + **网站绘制的图形**
+       + **网站绘制的图形**
      
-    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/y2.png)
+       ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/y2.png)
      
-     + **得到的解**
+       + **得到的解**
      
-    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/2.png)
+       ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/2.png)
   
-  + **欧拉回路，欧拉闭迹，所有点的连线个数都是偶数，起始点和终点是同一个点**
+  + **2. 欧拉回路，欧拉闭迹，所有点的连线个数都是偶数，起始点和终点是同一个点**
   
        + **网站绘制的图形**
      
@@ -45,7 +45,7 @@
       ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/1.png)
   
   
-  + **不能一笔画出，连线为奇数的节点的个数不为0也不为2*
+  + **3. 不能一笔画出，连线为奇数的节点的个数不为0也不为2**
   
        + **网站绘制的图形**
      
