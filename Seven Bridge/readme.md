@@ -3,7 +3,7 @@
 
 * **构建谜题**
 
-   + **在网站绘出谜题**
+   + **在[网站](https://www.geogebra.org/graphing)绘出谜题**
    
    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/fig.png)
    
