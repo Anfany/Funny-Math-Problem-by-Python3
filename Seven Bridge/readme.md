@@ -11,11 +11,11 @@
    
    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/fig_progress.png)
       
-   + **读取html文件的程序:[read_fig_html.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/read_fig_html.py)**
+   + **读取html文件的程序：[read_fig_html.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/read_fig_html.py)**
 
 * **程序**
 
-   * **根据读取的信息，转变为谜题，并解决谜题的程序:[Seven_Bridge.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/Seven_Bridge.py)**
+   * **根据读取的信息，转变为谜题，并解决谜题的程序：[Seven_Bridge.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Seven%20Bridge/Seven_Bridge.py)**
 
 
 * **结果图示**
