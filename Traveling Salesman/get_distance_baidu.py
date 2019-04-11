@@ -3,6 +3,7 @@
 
 #  基于百度地图API得到34个省会直辖市的各自之间的距离
 
+
 import urllib.request as ur  # WEB服务接口地址
 import urllib.parse  # URL中的中文转码
 import json  # 读取内容
@@ -21,7 +22,7 @@ distance_csv = r'C:\Users\GWT9\Desktop\city_distance.csv'
 sign_csv = r'C:\Users\GWT9\Desktop\city_sign.csv'
 
 #  百度地图开发者中心注册后获得个人密钥
-privatekey = 'gXBXU61wkWtymp1vTPuc5pBGZA4VzyCe'
+privatekey = 'gXBXU61wkWtymp1vTPuc5pBGZA4VyzCe'  # 请换成自己的密钥，否则无法运行
 
 
 #  根据中文地址获得相应的经纬度
