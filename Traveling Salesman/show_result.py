@@ -37,7 +37,7 @@ style_geo = style.add(
 
 
 def create_charts(data_path, path_html, path_png, length):
-    charts = GeoLines("TSP问题：以全国34市百度地图驾车距离为例)", '路径：%.3fkm' % (length / 1000), **style.init_style)
+    charts = GeoLines("TSP问题：以全国34市百度地图驾车距离为例", '路径：%.3fkm' % (length / 1000), **style.init_style)
     charts.add('', data_path, **style_geo)
     charts.render(path_html)
     make_a_snapshot(path_html, path_png)
