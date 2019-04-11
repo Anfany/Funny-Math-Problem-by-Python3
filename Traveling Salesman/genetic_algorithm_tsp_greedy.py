@@ -157,7 +157,7 @@ class GA():
         else:
             return False
 
-    # 交叉方法：顺序交叉，交叉产生2倍个体数的新个体，然后再用精英策略，选择
+    # 交叉方法：贪婪交叉，同时保证种群的多样性以及保证优秀的父辈进入下一代
     def crossover(self):
         new_individual = []
         different_fitness = []
