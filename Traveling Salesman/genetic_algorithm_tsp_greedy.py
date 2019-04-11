@@ -23,10 +23,10 @@ class GA():
     def __init__(self, d_dict=r_d.read_distance(), s_dict=r_d.read_sign()):
 
         # 初始种群内的个体数
-        self.individual_count = 2200
+        self.individual_count = 8  # 需要大于自身优化变异长度
 
         # 迭代次数
-        self.iter_times = 300
+        self.iter_times = 30
 
         # 交叉概率
         self.crossover_rate = 0.32
@@ -277,14 +277,14 @@ class GA():
 
         # 绘制每一代最优路径的曲线
         min_times = best_length.index(sorted_fitness[-1])
-        plt.scatter([min_times], [sorted_fitness[-1]], marker='s', color='green', s=7,
+        plt.scatter([min_times], [sorted_fitness[-1]], marker='*', color='green', s=18,
                     label='最优：$%d$代，$%.3fkm$' % (min_times, sorted_fitness[-1] / 1000))
-        plt.plot(list(range(len(best_length))), best_length, 'o-', lw=2, c='r')
-        plt.title('每一次迭代最优路径的总长度曲线 \n 初始种群个数：$%d$' % self.individual_count)
+        plt.plot(list(range(len(best_length))), best_length, '-', lw=2, c='r')
+        plt.title('每一次迭代最优路径的总长度曲线 \n 种群内个体数：$%d$' % self.individual_count)
         plt.legend(loc='best')
         plt.ylabel('长度($Km$)')
         plt.xlabel('代数')
-        plt.xticks(list(range(self.iter_times + 1)), ['初始'] + list(range(1, self.iter_times + 1)))
+        plt.xticks([0, min_times, self.iter_times], ['初始', '最优', '结束'])
         plt.savefig(r'%s\iter_path.png' % Save_file)
         return fig_name
 
@@ -306,3 +306,4 @@ if __name__ == '__main__':
     fig_list = ga.g_a()
     # 绘制动画
     ga.create_gif(fig_list)
+
