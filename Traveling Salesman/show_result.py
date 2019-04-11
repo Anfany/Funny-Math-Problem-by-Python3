@@ -42,14 +42,3 @@ def create_charts(data_path, path_html, path_png, length):
     charts.render(path_html)
     make_a_snapshot(path_html, path_png)
     return print('绘图完毕')
-
-
-# data_guangzhou = [["广州", "上海"],
-#                   ["上海", "北京"],
-#                   ["北京", "西宁"],
-#                   ["西宁", "重庆"],
-#                   ["重庆", "南宁"],
-#                   ["南宁", "广州"]]
-#
-#
-# create_charts(data_guangzhou, r'C:\Users\GWT9\Desktop\4.html', r'C:\Users\GWT9\Desktop\4.png', 3563463)
