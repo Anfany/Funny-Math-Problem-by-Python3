@@ -7,13 +7,13 @@
  
     + **34城市的经纬度文件：[34个城市经纬度.xlsx](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/城市经纬度(34).xlsx)**
     
-    + **106城市的经纬度文件：[106个城市经纬度.xlsx](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/城市经纬度(106).xlsx)**
-    
     + **城市之间的距离csv文件：[city_distance.csv](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/city_distance.csv)**
     
     + **城市的数字对应csv文件：[city_sign.csv](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/city_sign.csv)**
     
-    + **读取csv文件的程序：[read_distance.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/read_distance.py)**
+    + **获得城市间距离以及城市编号的程序：[get_distance.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/get_distance.py)**   
+    
+    + **读取距离以及城市编号文件的程序：[read_distance.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/read_distance.py)**
        
     
  * **2，在地图上展示结果的程序**
