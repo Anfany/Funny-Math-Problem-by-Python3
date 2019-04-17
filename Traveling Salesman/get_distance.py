@@ -8,7 +8,7 @@ from math import pi, cos, sin, asin
 import pandas as pd  # 将结果存储到表格中
 
 # 城市的经纬度的文件
-city_lng_lat_file = r'C:\Users\GWT9\Desktop\城市经纬度.xlsx'
+city_lng_lat_file = r'C:\Users\GWT9\Desktop\城市经纬度.csv'
 # 存储距离的csv文件
 distance_csv = r'C:\Users\GWT9\Desktop\city_distance.csv'
 # 存储地址对应编号的csv文件
@@ -17,7 +17,7 @@ sign_csv = r'C:\Users\GWT9\Desktop\city_sign.csv'
 
 #  读取文件，获取相应的经纬度
 def read_latlon(file=city_lng_lat_file):
-    data = pd.read_excel(file)
+    data = pd.read_csv(file,  encoding='gbk')
     city_dict = {c: [lng, lat] for c, lng, lat in data.values}
     return city_dict
 
@@ -87,15 +87,4 @@ def save_distance(d_csv=distance_csv, s_csv=sign_csv):
 # 主函数
 if __name__ == "__main__":
     save_distance()
-
-
-
-
-
-
-
-
-
-
-
 
