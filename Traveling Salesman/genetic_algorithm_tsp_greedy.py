@@ -23,16 +23,16 @@ class GA():
     def __init__(self, d_dict=r_d.read_distance(), s_dict=r_d.read_sign()):
 
         # 初始种群内的个体数
-        self.individual_count = 8  # 需要大于自身优化变异长度
+        self.individual_count = 500
 
         # 迭代次数
-        self.iter_times = 30
+        self.iter_times = 300
 
         # 交叉概率
-        self.crossover_rate = 0.32
+        self.crossover_rate = 0.12
 
         # 变异概率
-        self.mutation_rate = 0.22
+        self.mutation_rate = 0.12
 
         # 自身优化变异长度
         self.mutation_length = 5  # 最大为5，最小为2，过大会导致运行过慢
@@ -214,15 +214,20 @@ class GA():
                     improve_gene.append(j[(random_poss + c) % len(j)])
                 # 这个基因片段原有的适应度
                 init_fitness = self.fitness_path_distance(improve_gene)
-                # 开始打乱这段基因，两头的基因不参与优化
+                # 开始打乱这段基因，两头的基因不参与优化,寻找最优的
+                best_gene = []
                 for gene in itertools.permutations(improve_gene[1:-1]):
                     new_gene = [improve_gene[0]] + list(gene) + [improve_gene[-1]]
                     # 计算这个新产生的基因片段的适应度
                     new_fitness = self.fitness_path_distance(new_gene)
                     if new_fitness < init_fitness:
                         # 说明找到了优化的，将原来的基因片段变为新产生的基因片段
-                        for d in range(self.mutation_length):
-                            j[(random_poss + d) % len(j)] = gene[d]
+                        best_gene = gene
+                        init_fitness = new_fitness
+                if best_gene:
+                    for d in range(self.mutation_length):
+                        j[(random_poss + d) % len(j)] = best_gene[d]
+
                 self.population[i] = j
         return print('自身优化变异完毕')
 
@@ -253,6 +258,7 @@ class GA():
         best_length.append(all_fitness[0])  # 添加初始种群的
         # 开始遗传进化
         while times < self.iter_times:
+            print('第%s代：' % times)
             self.select_roulette_wheel()  # 选择
             self.crossover()  # 交叉
             self.mutation_improve_self()  # 变异
@@ -278,7 +284,7 @@ class GA():
         # 绘制每一代最优路径的曲线
         min_times = best_length.index(sorted_fitness[-1])
         plt.scatter([min_times], [sorted_fitness[-1]], marker='*', color='green', s=18,
-                    label='最优：$%d$代，$%.3fkm$' % (min_times, sorted_fitness[-1] / 1000))
+                    label='最优：$%d$代，$%.3fkm$' % (min_times - 1, sorted_fitness[-1] / 1000))
         plt.plot(list(range(len(best_length))), best_length, '-', lw=2, c='r')
         plt.title('每一次迭代最优路径的总长度曲线 \n 种群内个体数：$%d$' % self.individual_count)
         plt.legend(loc='best')
@@ -294,7 +300,7 @@ class GA():
         image_list += [image_list[-1]] * 10  # 最后一张图片停留的时间稍长
         for image_name in image_list:
             frames.append(imageio.imread(r'%s/%s' % (Save_file, image_name)))
-        imageio.mimsave(r'%s\%s' %(Save_file, gif_name), frames, 'GIF', duration=0.9)  # duration控制动态图中每张图片的显示时间
+        imageio.mimsave(r'%s\%s' % (Save_file, gif_name), frames, 'GIF', duration=0.9)  # duration控制动态图中每张图片的显示时间
         return print('动画生成完毕')
 
 
@@ -306,4 +312,5 @@ if __name__ == '__main__':
     fig_list = ga.g_a()
     # 绘制动画
     ga.create_gif(fig_list)
+
 
