@@ -30,14 +30,14 @@
  
     + **迭代结果**
     
-    ![image](iter.png)
+    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/iter_path.png)
     
     + **路径动态展示**
     
-    ![image](tsp.gif)
+    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/tsp.gif)
     
     
     + **最终的路径**
     
-    ![image](34.png)
+    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Traveling%20Salesman/34.png)
     
