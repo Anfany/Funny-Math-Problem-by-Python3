@@ -122,9 +122,9 @@ def convexhull(point_set, show_line=False):
     point_set.sort(key=lambda s: [s[1], s[0]])
     min_y_point = point_set[0]  # 参考点编号为0
 
-    # 将上面选择的点，转移到原点，计算其他所有点转移后和原点构成的向量和x轴正向的夹角
-    # 按照夹角从小到大排列，相同角度的, 按照y的降序排列
-    # 这里只计算tan的值，并将tan的值分为大于等于0，小于0, 无穷三部分
+    # 将上面选择的点，转移到原点，计算其他所有点转移后和原点构成的向量中纵坐标除以横坐标的商
+    # 根据商的不同情况，选择不用的排列策略 
+    # 这里将商的值分为大于等于0， 无穷，小于0三部分
     greater_equal_zero = []
     less_zero = []
     p_i = []
@@ -133,23 +133,23 @@ def convexhull(point_set, show_line=False):
         if point[0] != 0:
             tan = point[1] / point[0]
             if tan >= 0:
-                greater_equal_zero.append([tan, point[1], point, p])  # tan值，y值，转移后的值(计算凸包)，转移前的值(绘图)
+                greater_equal_zero.append([tan, point[1], point, p])  # 商值，y值，转移后的值(计算凸包)，转移前的值(绘图)
             else:
-                less_zero.append([tan, point[1], point, p])  # tan值，y值，转移后的值(计算凸包)，转移前的值(绘图)
+                less_zero.append([tan, point[1], point, p])  # 商值，y值，转移后的值(计算凸包)，转移前的值(绘图)
         else:
-            p_i.append([0, point[1], point, p])  # tan值，y值，转移后的值(计算凸包)，转移前的值(绘图)
+            p_i.append([0, point[1], point, p])  # 商值，y值，转移后的值(计算凸包)，转移前的值(绘图)
 
-    # 大于等于0的升序排列，相同值但不为0的按照y的升序排列，相同值为0的按照x的升序排列(这个条件，选点的时候已经设置过，此处无需在设置)
+    # 大于等于0的首先按商升序排列，相同值但不为0的按照y的升序排列，相同值为0的按照x的升序排列(这个条件，选点的时候已经设置过，此处无需在设置)
     greater_equal_zero.sort(key=lambda m: [m[0], m[1]])
-    # 小于0的升序排列，相同值的按照y的降序排列
+    # 小于0的首先按商升序排列，相同值的按照y的降序排列
     less_zero.sort(key=lambda m: [m[0], -m[1]])
-    # 等于正无穷的按照y值的降序排列
+    # 如果大于等于0的部分为空集，则按照y值的升序排列
     if not greater_equal_zero:
         p_i.sort(key=lambda m: m[1])
-    else:
+    else: # 否则按照y值的降序排列
         p_i.sort(key=lambda m: -m[1])
 
-    # 合并后，所有点是按着夹角逆时针排列的
+    # 合并后，所有点是按着与x轴正向构成的夹角逆时针排列的
     trans_point_angle = greater_equal_zero + p_i + less_zero  # 先是大于等于0，然后无穷，最后小于0，顺序不能错
 
     print(trans_point_angle)
@@ -263,7 +263,6 @@ def convexhull(point_set, show_line=False):
 if __name__ == "__main__":
     p_s = generate_points()
     convexhull(p_s)
-
 
 
 
