@@ -33,7 +33,7 @@ L_Delete_Width = 2.2
 P_Size = 20
 
 # 动态显示，定义时间
-Gap_Time = 0.001
+Gap_Time = 1
 
 
 def generate_points(n=50, x_min=-10, x_max=10, y_min=8, y_max=29):
@@ -124,7 +124,7 @@ def convexhull(point_set, show_line=False):
 
     # 将上面选择的点，转移到原点，计算其他所有点转移后和原点构成的向量和x轴正向的夹角
     # 按照夹角从小到大排列，相同角度的, 按照y的降序排列
-    # 这里只计算tan的值，并将tan的值分为大于0，等于0，小于0三部分
+    # 这里只计算tan的值，并将tan的值分为大于等于0，小于0, 无穷三部分
     greater_equal_zero = []
     less_zero = []
     p_i = []
@@ -139,15 +139,18 @@ def convexhull(point_set, show_line=False):
         else:
             p_i.append([0, point[1], point, p])  # tan值，y值，转移后的值(计算凸包)，转移前的值(绘图)
 
-    # 大于等于0的升序排列，相同值的按照y的降序排列
-    greater_equal_zero.sort(key=lambda m: [m[0], -m[1]])
+    # 大于等于0的升序排列，相同值但不为0的按照y的升序排列，相同值为0的按照x的升序排列(这个条件，选点的时候已经设置过，此处无需在设置)
+    greater_equal_zero.sort(key=lambda m: [m[0], m[1]])
     # 小于0的升序排列，相同值的按照y的降序排列
     less_zero.sort(key=lambda m: [m[0], -m[1]])
     # 等于正无穷的按照y值的降序排列
-    p_i.sort(key=lambda m: -m[1])
+    if not greater_equal_zero:
+        p_i.sort(key=lambda m: m[1])
+    else:
+        p_i.sort(key=lambda m: -m[1])
 
     # 合并后，所有点是按着夹角逆时针排列的
-    trans_point_angle = greater_equal_zero + p_i + less_zero  # 先是大于0，然后等于0，最后小于0，顺序不能错
+    trans_point_angle = greater_equal_zero + p_i + less_zero  # 先是大于等于0，然后无穷，最后小于0，顺序不能错
 
     print(trans_point_angle)
 
@@ -260,6 +263,7 @@ def convexhull(point_set, show_line=False):
 if __name__ == "__main__":
     p_s = generate_points()
     convexhull(p_s)
+
 
 
 
