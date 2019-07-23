@@ -35,6 +35,10 @@
 **Pro11. [旅行商 (Traveling Salesman)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Traveling%20Salesman)**
 >>>旅行商问题(TSP)，一个旅行商要拜访N个城市，每个城市只能拜访一次，最后要回到原来出发的城市。选择的路径的路程必须是所有路径中值最小的。以全国34城市为例。城市之间的距离定义为经纬度之间的地球表面的距离。利用遗传算法(Genetic Algorithm)获得最终的方案。
 
+**Pro12. [变态曲线 (Abnormal Curve)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Abnormal%20Curve)**
+>>>由一簇规律曲线的交点构成的变态曲线，探索这条变态曲线的表达式，以及计算曲线下的面积和直线簇构成的曲线的面积的误差的范围。
+
+
 
 ###### 扫描二维码，关注订阅号，获取谜题的详细解答，以及关于编程、机器学习等方面的文章。
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
