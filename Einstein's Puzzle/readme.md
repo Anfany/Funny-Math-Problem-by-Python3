@@ -23,7 +23,7 @@
 **注意**：条件4中绿色房子和白色房子是相邻的，此时最终结果只有一种可能性。如果绿色房子也可以和白色房子不相邻，则有7种结果。
 
 
-* **程序文件**：[Albert_Einstein_Problem.py](![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/Albert_Einstein_Problem.py))
+* **程序文件**：[Albert_Einstein_Problem.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/Albert_Einstein_Problem.py)
 
 * **结果展示：一种可能性**
 
