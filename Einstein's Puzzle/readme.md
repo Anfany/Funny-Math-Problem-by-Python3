@@ -23,12 +23,13 @@
 **注意**：条件4中绿色房子和白色房子是相邻的，此时最终结果只有一种可能性。如果绿色房子也可以和白色房子不相邻，则有7种结果。
 
 
-* **程序文件**：[Albert_Einstein_Problem.py]()
+* **程序文件**：[Albert_Einstein_Problem.py](![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/Albert_Einstein_Problem.py))
 
 * **结果展示：一种可能性**
 
-![image]()
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/11.png)
 
 
 
 * **绿色房子在白色房子左边，相邻或者不相邻均可：七种可能性**
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/71.png)![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/72.png)![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/73.png)![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/74.png)![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/75.png)![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/76.png)![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/77.png)
