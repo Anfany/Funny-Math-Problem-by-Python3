@@ -38,7 +38,7 @@
 **Pro12. [变态曲线 (Abnormal Curve)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Abnormal%20Curve)**
 >>>由一簇具有某种规律的直线的交点构成的变态曲线，探索这条变态曲线的表达式，以及计算曲线下的面积和直线簇构成的图形的面积的误差的范围。
 
-**Pro12. [爱因斯坦问题 (Einstein's Puzzle)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Einstein's%20 Puzzle)**
+**Pro13. [爱因斯坦问题 (Einstein's Puzzle)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Einstein's%20Puzzle)**
 >>>利用回溯算法解决爱因斯坦问题。
 
 
