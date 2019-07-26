@@ -267,6 +267,7 @@ def plot_result(r_dict, title, k_list=Key_List):
     :return: 图片的表格
     """
     labelr = k_list
+    labelc = list(range(len(r_dict)))
     chars = [[r_dict[b][i] for i in range(len(r_dict))] for b in k_list]
     # 获取鱼的位置以及相应的国籍
     fish_sign = [k_list.index('养的宠物'), r_dict['养的宠物'].index('鱼')]
@@ -283,7 +284,9 @@ def plot_result(r_dict, title, k_list=Key_List):
     table = ax.table(
         cellText=chars,
         rowLabels=labelr,
+        colLabels=labelc,
         rowColours=["orange"] * 5,
+        colColours=['orange'] * 5,
         cellColours=c_list,
         cellLoc='center',
         loc='upper right',
@@ -298,6 +301,10 @@ if __name__ == "__main__":
     result = run()
     for index, value in enumerate(result):
         plot_result(value, [len(result), index+1])
+
+
+
+
 
 
 
