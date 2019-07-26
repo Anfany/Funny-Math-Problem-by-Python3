@@ -27,7 +27,7 @@
 
 * **结果展示：一种可能性**
 
-![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/11.png)
+  ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Einstein's%20Puzzle/11.png)
 
 
 
