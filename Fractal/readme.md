@@ -3,7 +3,7 @@
 
 #### 一、基于复动力系统
 
-* **Julia集**
+* **Julia集和Mandelbrot集**
 
     + **程序：[fractal_figure.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Fractal/fractal_figure.py)**
     
@@ -13,7 +13,10 @@
     ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Fractal/julia_28.png)
     ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Fractal/julia_140.png)
     ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Fractal/m_2_200.png)
-    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Fractal/m_4_100.png)
+    ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Fractal/mandelbrot.png)
+    
+    具有局部放大的图像：
+    
     ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Fractal/mandelbrot1.png)
 
 
