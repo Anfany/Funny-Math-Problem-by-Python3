@@ -8,8 +8,8 @@
 
 #### 程序
 
-[people_river.py]()
+[people_river.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Cross%20River/people_river.py)
 
 #### 解决方案
 
-![image]()
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Cross%20River/c_r.png)
