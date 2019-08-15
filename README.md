@@ -44,7 +44,8 @@
 **Pro14. [分形 (Fractal)](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Fractal)**
 >>>分形（Fractal）一词，是由美国数学家曼德勃罗先生（Mandelbrot）创造出来的。分形几何学是一门以非规则几何形态为研究对象的几何学。按照分形几何学的观点，一切复杂的对象虽然看似杂乱无章，但他们具有相似性。简单地说，就是把复杂对象的某个局部进行放大，其形态和复杂程度与整体相似。本文给出基于复动力系统，例如Mandelbrot集合、Julia集合；基于迭代函数系统，例如Koch雪花、谢尔宾斯基三角形。
 
-
+**Pro15. [八人过河（Cross River）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Cross%20River)**
+>>>现在有8个人分别为：1个父亲，带着他的2个儿子。1个母性，带着她的2个女儿；1个警察，带着1个犯人；开始时，8个人都是在河的左岸。现在需要过河，过河时需要注意下面5条说明：1，只有警察、父亲和母亲可以划船；2，警察如果离开犯人，犯人就会伤害其他人；3，母亲不在时，这个父亲会伤害她的女儿。4，父亲不在时，这个母亲也会伤害他的儿子；5，船上一次最多只能坐两个人。求出过河方案。利用状态空间BFS搜索算法解决，并以绘图形式给出解决方案。
 
 ###### 扫描二维码，关注订阅号，获取谜题的详细解答，以及关于编程、机器学习等方面的文章。
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
