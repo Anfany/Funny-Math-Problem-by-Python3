@@ -312,7 +312,6 @@ class MNPuzzle:
             :return: 图片
             """
             fig = plt.figure()
-            plt.style.use('bmh')
             alignment = {'horizontalalignment': 'center', 'verticalalignment': 'baseline'}
             gs = gridspec.GridSpec(2, 2)
             #  绘制初始状态
