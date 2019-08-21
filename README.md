@@ -47,8 +47,8 @@
 **Pro15. [八人过河（Cross River）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Cross%20River)**
 >>>现在有8个人分别为：1个父亲，带着他的2个儿子。1个母亲，带着她的2个女儿；1个警察，带着1个犯人；开始时，8个人都是在河的左岸。现在需要过河，过河时需要注意下面5条说明：1，只有警察、父亲和母亲可以划船；2，警察如果离开犯人，犯人就会伤害其他人；3，母亲不在时，这个父亲会伤害她的女儿。4，父亲不在时，这个母亲也会伤害他的儿子；5，船上一次最多只能坐两个人。求出过河方案。利用状态空间BFS搜索算法解决，并以绘图形式给出解决方案。
 
-**Pro15. [十五谜题（15 Puzzle）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/15%20Puzzle)**
->>>15谜题是由纽约卡纳斯托塔市的邮政局长诺伊斯·查普曼发明的。15谜题就是将编号从1到15的15个方块，放在一个有16个格子的4×4的的盒子中，其中一个格子是没有方块的。通过移动方块，使得方块的编号上左上方到右下方正好是连续的，并且右下角的格子正好没有方块。利用IDA\*算法获得移动方案。
+**Pro16. [十五谜题（15 Puzzle）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/15%20Puzzle)**
+>>>15谜题是由纽约卡纳斯托塔市的邮政局长诺伊斯·查普曼发明的。15谜题就是将编号从1到15的15个方块，放在一个有16个格子的4×4的的盒子中，其中一个格子是没有方块的。通过移动方块，使得方块的编号从左上方到右下方正好是连续的，并且右下角的格子正好没有方块。利用IDA\*算法获得移动方案。
 
 ###### 扫描二维码，关注订阅号，可获取以上谜题的详细解答，以及关于编程、机器学习等方面的文章。
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
