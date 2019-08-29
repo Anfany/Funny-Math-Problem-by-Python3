@@ -12,10 +12,10 @@ mpl.rcParams['font.sans-serif'] = ['FangSong']  # 设置中文字体为新宋体
 
 # 谜题的初始状态，数组形式，数组由不重复的数字组成,其中用数字0代表空格.数字可以不连续，但是必须不重复。
 # 数组为M*N的，行数M的最小值为2,
-START_PUZZLE = np.array([[9, 11, 6],
-                         [5, 0, 1],
-                         [4, 2, 7],
-                         [8, 3, 10]])
+START_PUZZLE = np.array([[9, 11, 6, 55],
+                         [5, 0, 1, -5],
+                         [4, 2, 7, 66],
+                         [8, 3, -206, -99]])
 
 
 class MNPuzzle:
@@ -190,9 +190,9 @@ class MNPuzzle:
         # 记录每个节点当前选择的是第几个行为
         node_action = {self.trans_state_str(self.p_list): 0}
         # 记录所有的代价值
-        hn_list = []
+        hn_list = [max_depth]
 
-        while len(current_s) < max_depth:  # 以深度为限制，遍历完
+        while node_action[self.trans_state_str(self.p_list)] < 4:  # 以深度为限制，遍历完,只有4个动作
             # 当前的状态
             c_s = current_s[-1]
             # 当前状态的字符串形式
@@ -220,10 +220,11 @@ class MNPuzzle:
                 # 计算这个状态的代价
                 hn_next = self.get_h(next_s)
                 if hn_next + len(current_s) + 1 > max_depth:
+                    # 存储这个值
                     hn_list.append(hn_next + len(current_s) + 1)
-                # 存储这个值
-                # 判断这个状态的估值(该状态到结束状态的值与开始状态到该状态的值)总和是否小于阈值
-                if hn_next + len(current_s) + 1 < max_depth:
+                    # 需要剪枝，继续判断下一个动作
+                    node_action[str_current_s] += 1
+                else:
                     # 以前没出现过
                     if str_next_s not in yes_s:
                         # 添加到遍历的字典中
@@ -239,9 +240,6 @@ class MNPuzzle:
                     else:
                         # 以前出现过，说明需要选择下一个动作
                         node_action[str_current_s] += 1
-                else:
-                    # 需要剪枝，继续判断下一个动作
-                    node_action[str_current_s] += 1
 
             else:
                 # 如果没有可选的动作，需要回溯，判断此时是否回溯到开始的根节点
@@ -255,12 +253,12 @@ class MNPuzzle:
                     node_action[father_node] += 1
                     current_a = current_a[:-1]
                 else:
-                    if hn_list:
-                        return '1', min(hn_list)
-                    else:
-                        return '1', max_depth + 1
-        if hn_list:
-            return '1', min(hn_list)
+                    current_s = [self.p_list]
+                    current_a = ''
+                    node_action[self.trans_state_str(self.p_list)] += 1
+
+        if len(hn_list) != 1:
+            return '1', min(hn_list[1:])
         else:
             return '1', max_depth + 1
 
@@ -312,6 +310,7 @@ class MNPuzzle:
             :return: 图片
             """
             fig = plt.figure()
+            plt.style.use('bmh')
             alignment = {'horizontalalignment': 'center', 'verticalalignment': 'baseline'}
             gs = gridspec.GridSpec(2, 2)
             #  绘制初始状态
@@ -446,6 +445,19 @@ if __name__ == '__main__':
         move_action = a.ida_star_puzzle()
         print('方案找到，动作序列为：%s。正在绘图' % move_action)
         a.plot_puzzle(move_action)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
