@@ -12,6 +12,8 @@
 ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/15%20Puzzle/puzzle.gif)
 
 
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/15%20Puzzle/puzzle00.gif)
+
 
 #### 二、图片拼图谜题
 
