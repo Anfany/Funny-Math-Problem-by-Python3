@@ -50,5 +50,11 @@
 **Pro16. [十五谜题（15 Puzzle）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/15%20Puzzle)**
 >>>15谜题是由纽约卡纳斯托塔市的邮政局长诺伊斯·查普曼发明的。15谜题就是将编号从1到15的15个方块，放在一个有16个格子的4×4的的盒子中，其中一个格子是没有方块的。通过移动方块，使得方块的编号从左上方到右下方正好是连续的，并且右下角的格子正好没有方块。利用IDA\*算法获得移动方案。
 
+**Pro17. [华容道（Klotski）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Klotski)**
+>>>华容道是古老的中国民间益智游戏，据《资治通鉴》注释中说“从此道可至华容也”。华容道原是中国古代的一个地名，相传当年曹操曾经败走此地。通过移动各个棋子，帮助曹操从初始位置移到棋盘最下方中部。不允许跨越棋子，还要设法用最少的步数把曹操移到出口。本文利用BFE算法给出24局华容道的移动方案。
+
+
+
+
 ###### 扫描二维码，关注订阅号，可获取以上谜题的详细解答，以及关于编程、机器学习等方面的文章。
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
