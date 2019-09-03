@@ -1,3 +1,6 @@
+
+
+
 # -*- coding：utf-8 -*-
 # &Author  AnFany
 
@@ -12,11 +15,11 @@ os.chdir(r'C:\Users\GWT9\Desktop')
 #  题目和关键词对应关系字典
 problem_dict = {'s': '数独', 'n': '八皇后', 'h': '汉诺塔', 'd': '二十四点', 'm': '幻方', 'p': '完美迷宫', 'c': '凸包',
                 'b': '七桥', 'o': '一笔画完', 'a': '变态曲线', 't': '旅行商', 'e': '爱因斯坦问题', 'f': '分形',
-                'r': '八人过河', 'w': '十五数码'}
+                'r': '八人过河', 'w': '十五数码', 'z': '华容道'}
 
 method_dict = {'s': '回溯', 'n': '回溯', 'h': '公式', 'd': '正则', 'm': '公式', 'p': '普里姆算法', 'c': '葛立恒扫描法',
                'b': '弗罗莱算法', 'o': '深度、广度优先搜索', 'a': '积分与极限', 't': '遗传算法', 'e': '逻辑与回溯', 'f': '绘图',
-               'r': '状态空间', 'w': '迭代加深启发'}
+               'r': '状态空间', 'w': '迭代加深启发', 'z': '广度优先搜索'}
 
 #  选择颜色中比较重的
 line_color = np.array([hco for hco in list(mcolors.cnames.keys()) if hco not
@@ -111,3 +114,5 @@ def figure(p_dict, m_dict, c=line_color, m_n=4):
 
 
 figure(problem_dict, method_dict)
+
+
