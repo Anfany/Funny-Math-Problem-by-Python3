@@ -11,9 +11,9 @@
 
   * **第一局1**
   
-  ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Klotski/1_k.gif)
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Klotski/1_k.gif)
   
-  ```python
+```python
   兵一右,马超下,关羽左,兵二左,黄忠下,兵四上右,关羽右,马超上,兵一左,兵二左,黄忠左,兵四下,关羽右,兵三上,兵二上,兵一右,马超下,兵三左,
   
   关羽左,赵云下,兵四下,赵云下,曹操右,张飞右,兵三上,马超上,兵一左,兵三上,马超上,兵二左,黄忠左,兵四左,赵云下,关羽右,黄忠上,兵一右,兵四上,
@@ -25,7 +25,8 @@
   关羽下,曹操下,兵二下,兵三右,张飞右,赵云上二,曹操左,兵二下二,兵三下二,张飞右,赵云右,马超右,黄忠上二,曹操左,兵二左上,关羽上,兵四右,兵一右,
   
   兵四右,兵一右,曹操下,兵二左二,兵三左二,关羽上,兵一上右,曹操右
-  ```
+```
+
   * **第一局：横刀立马1**
   
   ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Klotski/1_k.gif)
