@@ -9,11 +9,8 @@
    
 #### 24局解决方案
 
-
   * **第一局：横刀立马1**
-  
   ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Klotski/1_k.gif)
-  
   ```python
   兵一右,马超下,关羽左,兵二左,黄忠下,兵四上右,关羽右,马超上,兵一左,兵二左,黄忠左,兵四下,关羽右,兵三上,兵二上,兵一右,马超下,兵三左,
   
