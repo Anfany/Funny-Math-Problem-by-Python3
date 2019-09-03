@@ -9,7 +9,7 @@
    
 #### 24局解决方案
 
-  * **第一局：横刀立马1**
+  * **第一局1**
   
   ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Klotski/1_k.gif)
   
