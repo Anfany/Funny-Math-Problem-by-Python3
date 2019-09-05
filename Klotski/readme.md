@@ -9,7 +9,11 @@
    
 #### 二、24局解决方案
 
-  * **移动方案：见.txt文件**
+  * **具体的移动方案：见名称为“相应局数.txt”的文件**
+  
+  
+  * **结果图示：**
+  
 
 ![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/Klotski/1_k.gif)
 
