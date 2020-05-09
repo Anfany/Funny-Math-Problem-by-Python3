@@ -53,8 +53,8 @@
 **Pro17. [华容道（Klotski）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/Klotski)**
 >>>华容道是古老的中国民间益智游戏，据《资治通鉴》注释中说“从此道可至华容也”。华容道原是中国古代的一个地名，相传当年曹操曾经败走此地。通过移动各个棋子，帮助曹操从初始位置移到棋盘最下方中部。不允许跨越棋子，还要设法用最少的步数把曹操移到出口。本文利用BFS算法给出24局华容道最佳的移动方案。
 
-**Pro18. [生命游戏（Game of Life）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/lifegame**
->>>Game of Life 是英国数学家约翰·何顿·康威（John Horton Conway）在1970年发明的，由3条规则构成的二维细胞自动机。该游戏号称“零玩家且永不结束”。令人感到惋惜的是，2020年4月11日他因感染新冠肺炎（COVID-19）去世，数学“老顽童”就此陨落。
+**Pro18. [生命游戏（Game of Life）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/lifegame)**
+>>>生命游戏是英国数学家约翰·何顿·康威（John Horton Conway）在1970年发明的，由3条规则构成的二维细胞自动机。该游戏号称“零玩家且永不结束”。令人感到惋惜的是，2020年4月11日他因感染新冠肺炎（COVID-19）去世，数学“老顽童”就此陨落。
 
 
 ###### 扫描二维码，关注订阅号，可获取以上谜题的详细解答，以及关于编程、机器学习等方面的文章。
