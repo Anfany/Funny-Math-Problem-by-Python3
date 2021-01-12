@@ -29,7 +29,7 @@ def dc_order(start='03001', end='99001', head=headers, xqdict=xingqi):  #endå€¼è
 
     response = requests.get('https://datachart.500.com/ssq/history/newinc/outball.php?start=%s&end=%s' % (start, end), headers=head).text
 
-    bsoh = bs(response, "html5lib")
+    bsoh = bs(response, "lxml")
 
     fu = bsoh.find_all('tr', class_='t_tr1')
 
