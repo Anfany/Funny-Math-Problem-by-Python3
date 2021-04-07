@@ -6,17 +6,17 @@
 
 + 两个点
 
-
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/Bezier_2.gif)
 
 + 三个点
-
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/Bezier_3.gif)
 
 
 
 + 四个点
-
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/Bezier_4.gif)
 
 + 更多点
-
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/Bezier.gif)
 
 ### 二、多个控制点组合：[bezier_multi_curves.py](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/bezier_multi_curves.py)
