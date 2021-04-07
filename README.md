@@ -56,8 +56,8 @@
 **Pro18. [生命游戏（Game of Life）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/lifegame)**
 >>>生命游戏是英国数学家约翰·何顿·康威（John Horton Conway）在1970年发明的，由3条规则构成的二维细胞自动机。该游戏号称“零玩家且永不结束”。令人感到惋惜的是，2020年4月11日他因感染新冠肺炎（COVID-19）去世，数学“老顽童”就此陨落。
 
-**Pro19. [贝塞尔曲线（$B\sqrt{ezier}$ Curve）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/lifegame)**
->>>生命游戏是英国数学家约翰·何顿·康威（John Horton Conway）在1970年发明的，由3条规则构成的二维细胞自动机。该游戏号称“零玩家且永不结束”。令人感到惋惜的是，2020年4月11日他因感染新冠肺炎（COVID-19）去世，数学“老顽童”就此陨落。
+**Pro19. [贝塞尔曲线（Bezier Curve）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/bezier)**
+>>>贝塞尔曲线。
 
 ###### 扫描二维码，关注订阅号，可获取以上谜题的详细解答，以及关于编程、机器学习等方面的文章。
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
