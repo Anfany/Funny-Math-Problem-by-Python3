@@ -34,6 +34,7 @@
 
 + 更多示例
 
-![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/Bezier_more.gif)
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/Bezier_more_false.gif)
 
 
+![image](https://github.com/Anfany/Funny-Math-Problem-by-Python3/blob/master/bezier/Bezier_more_true.gif)
