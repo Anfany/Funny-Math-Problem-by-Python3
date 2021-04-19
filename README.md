@@ -57,7 +57,7 @@
 >>>生命游戏是英国数学家约翰·何顿·康威（John Horton Conway）在1970年发明的，由3条规则构成的二维细胞自动机。该游戏号称“零玩家且永不结束”。令人感到惋惜的是，2020年4月11日他因感染新冠肺炎（COVID-19）去世，数学“老顽童”就此陨落。
 
 **Pro19. [贝塞尔曲线（Bezier Curve）](https://github.com/Anfany/Funny-Math-Problem-by-Python3/tree/master/bezier)**
->>>贝塞尔曲线的数学基础是早在 1912 年就广为人知的伯恩斯坦多项式。但直到 1959 年，当时就职于雪铁龙的法国数学家 Paul de Casteljau 才开始对它进行图形化应用的尝试，并提出了一种数值稳定的 de Casteljau 算法。然而贝塞尔曲线的得名，却是由于 1962 年另一位就职于雷诺的法国工程师 Pierre Bézier 的广泛宣传。他使用这种只需要很少的控制点就能够生成复杂平滑曲线的方法，来辅助汽车车体的工业设计。
+>>>贝塞尔曲线(Bezier Curve)是经起始点开始，在锚点结束，中间由多个点控制的一种平滑曲线。本文给出基于de Casteljau算法和直接法的绘制曲线的程序以及贝塞尔曲线的应用。
 
 ###### 扫描二维码，关注订阅号，可获取以上谜题的详细解答，以及关于编程、机器学习等方面的文章。
 ![image](https://github.com/Anfany/Machine-Learning-for-Beginner-by-Python3/blob/master/pythonfan_anfany.jpg)
